@@ -40,7 +40,7 @@ const showFlowers = async() => {
 
 const getFlowers = async() => {
     try{
-        return (await fetch("http://localhost:3000/api/flowers")).json();
+        return (await fetch("https://node-flowers.onrender.com/api/flowers")).json();
     }catch(error){
         console.log("error retrieving json");
         return " ";
