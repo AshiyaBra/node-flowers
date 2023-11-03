@@ -32,7 +32,7 @@ const showFlowers = async() => {
         section.append(places);
 
         const img = document.createElement("img");
-        img.src = "https://node-flowers.onrender.com" + flower.img;
+        img.src = "https://node-flowers.onrender.com/" + flower.img;
         section.append(img);
 
     });
